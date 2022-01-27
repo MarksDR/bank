@@ -1,4 +1,4 @@
-#Client class
+zdf#Client class
 #name
 #timestamp (optional)
 
@@ -22,7 +22,8 @@ class Account:
         self.initial_balance = initial_balance
         self.timestamp = datetime.datetime.now()
 
-
+def print_transactions():
+    pass
 
 class Client:
     def __init__(self, name: str):
